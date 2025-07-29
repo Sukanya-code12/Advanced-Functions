@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM5vk7tUp8O6jaC2ktBYFg+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sukanya-code12/Advanced-Functions/blob/main/Object%20Oriented%20Programming\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jGyL9xxeQ913",
+        "outputId": "959d0980-5046-411b-9fc1-861b8bdf2f79"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ],
+      "source": [
+        "class student:\n",
+        "  grade=8\n",
+        "  print(grade)\n",
+        "ob=student()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class vehicle:\n",
+        "  def __init__(self,speed,mileage):\n",
+        "    self.speed = speed\n",
+        "    self.mileage = mileage\n",
+        "ob=vehicle(240,18)\n",
+        "print(ob.speed,ob.mileage)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yeHOerOQSX-C",
+        "outputId": "ec3da55f-8108-4ee2-95fd-f4da0191b921"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "240 18\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
